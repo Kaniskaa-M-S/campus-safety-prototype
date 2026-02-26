@@ -13,10 +13,11 @@ emergency response delays across campus.
 
 ## Urban Data Science Components
 
-- Geospatial crime mapping and hotspot analysis using Cornell Police crime log data
+- Automated scraping, cleaning, and geocoding of Cornell University Police Department crime logs
+- Geospatial crime hotspot mapping using GeoPandas and Folium — static plots and live heatmaps
+- Predictive model trained on historical crime data to forecast risk levels by time, location, and incident type
 - Stakeholder survey analysis across students, faculty, and campus security
-- Identification of systemic safety gaps through spatial pattern recognition
-- Web dashboard integrating real-time safety indicators and geographic visualizations
+- Flask web dashboard integrating real-time crime indicators and geographic visualizations
 
 ## Hardware Prototype
 
@@ -25,10 +26,15 @@ emergency response delays across campus.
 - Voice-activated alerts, manual panic buttons, LED feedback, FM alarms
 - Low-latency design optimized for real-world deployment
 
-## Recognition
+## Documents
 
-Listed in Cornell ECE 6930 Past Projects by Prof. Hunter Adams:  
-[Campus Safety Prototype — Course Project Listing](https://vanhunteradams.com/6930/Past_Projects.html#Campus-safety-prototype)
+- [Full Report →](https://vanhunteradams.com/6930/Kaniskaa_Mohan.pdf)
+- [Project Poster →](https://vanhunteradams.com/6930/Kaniskaa_Mohan_Poster.pdf)
+- [Course Project Listing — Prof. Hunter Adams, Cornell ECE 6930 →](https://vanhunteradams.com/6930/Past_Projects.html#Campus-safety-prototype)
+
+## Tech Stack
+
+Python · GeoPandas · Folium · Flask · Raspberry Pi · scikit-learn
 
 ## Authors
 
